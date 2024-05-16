@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--My CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--Side Navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <!--Product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass-location"></i>
+        </form>
+        <div class="products" id="products">
+            <div class="products-box">
+                <img src="assets/White-gown.jpg" alt="">
+                <p>White Gown</p>
+            </div>
+            <div class="products-box">
+                <img src="assets/Maroon-top.jpg" alt="">
+                <p>Maroon Top</p>
+            </div>
+            <div class="products-box">
+                <img src="assets/Yellowgrey.jpg" alt="">
+                <p>Yellow Top</p>
+            </div>
+            <div class="products-box">
+                <img src="assets/White-sweatshirt .jpg" alt="">
+                <p>Sweatshirt</p>
+            </div>
+            <div class="products-box">
+                <img src="assets/Black-checked.jpg" alt="">
+                <p>Black Combo</p>
+            </div>
+            <div class="products-box">
+                <img src="assets/Watch.jpg" alt="">
+                <p>Skinny Yellow Top</p>
+            </div>
+            <div class="products-box">
+                <img src="assets/Sunglass-girl.jpg" alt="">
+                <p>Blue Top</p>
+            </div>
+            <div class="products-box">
+                <img src="assets/Tops.jpg" alt="">
+                <p>Colourful Tops</p>
+            </div>
+            <div class="products-box">
+                <img src="assets/Checked-top.jpg" alt="">
+                <p>Checked Tops</p>
+            </div>
+            <div class="products-box">
+                <img src="assets/Purple-top.jpg" alt="">
+                <p>Purple Tops</p>
+            </div>
+            <div class="products-box">
+                <img src="assets/Striped-top.jpg" alt="">
+                <p>Striped Tops</p>
+            </div>
+            <div class="products-box">
+                <img src="assets/Sunglass.jpg" alt="">
+                <p>Sunglass</p>
+            </div>
+            <div class="products-box">
+                <img src="assets/Shoes.jpg" alt="">
+                <p>Attractive Shoes</p>
+            </div>
+            <div class="products-box">
+                <img src="assets/Black-Bag.jpg" alt="">
+                <p>Attractive Black Bag</p>
+            </div>
+            <div class="products-box">
+                <img src="assets/Black-tshirt.jpg" alt="">
+                <p>Tshirt</p>
+            </div>
+            <div class="products-box">
+                <img src="assets/Pink.jpg" alt="">
+                <p>Combo collection</p>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box1">
+                <h2 class="headingText">Nostra</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel optio, assumenda unde fugit distinctio
+                    ipsum?</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@ 2024 Nostra.com</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

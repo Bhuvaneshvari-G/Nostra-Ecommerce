@@ -190,25 +190,27 @@
 }
 
 .product-search {
+    position: relative;
     width: 80%;
-    border: 1px solid black ;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin: auto;
 }
 
-.product-search input {
-    border: none;
-    background-color: transparent;
+#search {
     width: 100%;
-    padding: 8px;
-    margin-top: 15px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    outline: none;
 }
 
-.product-search input:focus {
-    outline: none;
+.product-search img {
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    transform: translateY(-60%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 
 .products {
@@ -298,6 +300,7 @@ form textarea {
     .service-container-2 {
         flex-direction: column;
     }
+
     .news p {
         text-align: center;
     }

@@ -297,4 +297,7 @@ form textarea {
     .service-container-2 {
         flex-direction: column;
     }
+    .news p {
+        text-align: center;
+    }
 }
